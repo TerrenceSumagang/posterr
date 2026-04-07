@@ -1,0 +1,28 @@
+
+Body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.Poster{
+    height: 100vh;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background:  linear-gradient(to right, #555353,#615e5e);
+    color: skyblue;
+    text-align: center;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.quote{
+    font-size: 30px; 
+    font-style: italic;
+    margin: 10px 0;
+}
